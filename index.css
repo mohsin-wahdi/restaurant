@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bs-blue: #0d6efd;
+  --ff-bakilda-histori: 'bakilda_histori';
+  --ff-value-sans-pro: 'value_sans_pro';
+  --ff-abril-display: 'abril_display';
+}
+.main{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.n{
+  font-family: var(--ff-bakilda-histori);
+}
+.main1{
+  padding-left: 5%;
+  background-color:#FFFAF2;
+  /* background-color: var(--bs-blue); */
+}
+.new h3{
+  color: orange;
+}
+#crd{
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#title{
+  /* font-family: var(--ff-bakilda-histori); */
+  font-family: var(--ff-bakilda-histori);
+  font-weight: 400;
+  letter-spacing: unset;
+}
+
+ .footer
+{
+  
+  background-image: url(https://epicurean.netlify.app/epicurean/assets/images/footer-bg.png);
+}
+
+#display1{
+  width: 100%;
+  background-image: url(https://epicurean.netlify.app/epicurean/assets/images/reservation-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.footer a{
+  opacity: 0.5;
+}
+.aa
+      {
+        width: 100%;
+        overflow: hidden;
+      }
+      .aa img
+      {
+        width: 100%;
+        overflow: hidden;
+        transition: 3s;
+      }
+      .aa img:hover
+      {
+        transform: scale(1.4);
+      }
